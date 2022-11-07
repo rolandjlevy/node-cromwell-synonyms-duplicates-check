@@ -1,5 +1,5 @@
-const { synonyms } = require('./synonyms');
-const { keywords } = require('./keywords');
+const { synonyms } = require('./src/synonyms');
+const { keywords } = require('./src/keywords');
 
 const duplicates = keywords.filter(item => {
   const found = synonyms
